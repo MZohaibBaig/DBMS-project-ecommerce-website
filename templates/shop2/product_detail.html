@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h2>{{ product.name }}</h2>
+  <img src="{{ product.image_url }}" alt="{{ product.name }}" style="max-width: 400px; height: auto;">
+  <p><strong>Price:</strong> £{{ product.price }}</p>
+  
+  <p><strong>Stock:</strong> {{ product.stock_quantity }}</p> 
+  
+  <p><strong>Description:</strong></p>
+  <p>{{ product.description }}</p>
+  <br>
+  <a href="{% url 'shop2:product-list' %}">&larr; Back to all products</a>
+{% endblock %}
