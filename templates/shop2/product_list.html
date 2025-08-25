@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h2>All Products</h2>
+  <a href="{% url 'shop2:product-add' %}" class="add-new-link">+ Add New Product</a>
+
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Stock</th>
+        <th>Image</th>
+        <th>Created</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for product in products %}
+      <tr>
+        <td>{{ product.pk }}</td>
+        <td>{{ product.name }}</td>
+        <td>${{ product.price }}</td>
+        <td>{{ product.quantity_in_stock }}</td>
+        <td>
+          {% if product.image_url %}
+            <img src="{{ product.image_url }}" alt="{{ product.name }}">
+          {% else %}
+            No Image
+          {% endif %}
+        </td>
+        <td>{{ product.created_at|date:"Y-m-d H:i" }}</td>
+      </tr>
+      {% empty %}
+      <tr>
+        <td colspan="6">No products found.</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+{% endblock %}
