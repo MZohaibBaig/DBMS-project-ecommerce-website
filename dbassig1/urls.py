@@ -1,13 +1,10 @@
+# dbassig1/urls.py
 from django.contrib import admin
 from django.urls import path, include
-from django.views.generic import RedirectView  # ✅ import RedirectView
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-
-    # ✅ redirect root "/" → "/products/"
-    path('', RedirectView.as_view(url='/products/')),
-
-    # ✅ include your app URLs
-    path('', include('shop2.urls')),
+    path("admin/", admin.site.urls),
+    path("", include("shop2.urls")),  # app_name in shop2/urls.py makes the "shop2:" namespace available
+    # OR, equivalently:
+    # path("", include(("shop2.urls", "shop2"), namespace="shop2")),
 ]

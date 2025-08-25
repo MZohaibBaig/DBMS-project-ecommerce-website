@@ -1,11 +1,8 @@
-# forms.py
 from django import forms
-from .models import Products # <-- FIXED
+from .models import Product
 
 class ProductForm(forms.ModelForm):
     class Meta:
-        model = Products # <-- FIXED
-        fields = ['name', 'description', 'price', 'stock_quantity', 'image_url']
-        widgets = {
-            'description': forms.Textarea(attrs={'rows': 4}),
-        }
+        model = Product
+        fields = ["name", "description", "price", "quantity_in_stock", "image_url"]
+        widgets = {"description": forms.Textarea(attrs={"rows": 4})}

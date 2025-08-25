@@ -77,16 +77,17 @@ WSGI_APPLICATION = 'dbassig1.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'lenshive',         # The name of your database
-        'USER': 'root',             # Your MySQL username (default is 'root')
-        'PASSWORD': '',             # Your MySQL password (default is empty)
-        'HOST': '127.0.0.1',        # Or 'localhost'
-        'PORT': '3307',             # The port shown in your XAMPP control panel
-        'OPTIONS': {
-            'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
-        },
+        'NAME': 'lenshive',
+        'USER': 'root',
+        'PASSWORD': 'zohaib1234',
+        'HOST': '127.0.0.1',
+        'PORT': '3307',
+        'OPTIONS': {'init_command': "SET sql_mode='STRICT_TRANS_TABLES'"},
     }
 }
+
+
+
 
 
 # Password validation
