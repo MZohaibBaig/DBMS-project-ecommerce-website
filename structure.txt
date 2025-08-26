@@ -1,7 +1,10 @@
 Folder PATH listing
 Volume serial number is 0C98-64D1
 C:.
+¦   .gitignore
+¦   .gitignore.txt
 ¦   db.sqlite3
+¦   feature-frontend-mvp.patch
 ¦   manage.py
 ¦   structure.txt
 ¦   
@@ -12,6 +15,8 @@ C:.
 ¦   +---Include
 ¦   +---Lib
 ¦   ¦   +---site-packages
+¦   ¦       ¦   _cffi_backend.cp313-win_amd64.pyd
+¦   ¦       ¦   
 ¦   ¦       +---asgiref
 ¦   ¦       ¦   ¦   compatibility.py
 ¦   ¦       ¦   ¦   current_thread_executor.py
@@ -46,6 +51,303 @@ C:.
 ¦   ¦       ¦   ¦   
 ¦   ¦       ¦   +---licenses
 ¦   ¦       ¦           LICENSE
+¦   ¦       ¦           
+¦   ¦       +---cffi
+¦   ¦       ¦   ¦   api.py
+¦   ¦       ¦   ¦   backend_ctypes.py
+¦   ¦       ¦   ¦   cffi_opcode.py
+¦   ¦       ¦   ¦   commontypes.py
+¦   ¦       ¦   ¦   cparser.py
+¦   ¦       ¦   ¦   error.py
+¦   ¦       ¦   ¦   ffiplatform.py
+¦   ¦       ¦   ¦   lock.py
+¦   ¦       ¦   ¦   model.py
+¦   ¦       ¦   ¦   parse_c_type.h
+¦   ¦       ¦   ¦   pkgconfig.py
+¦   ¦       ¦   ¦   recompiler.py
+¦   ¦       ¦   ¦   setuptools_ext.py
+¦   ¦       ¦   ¦   vengine_cpy.py
+¦   ¦       ¦   ¦   vengine_gen.py
+¦   ¦       ¦   ¦   verifier.py
+¦   ¦       ¦   ¦   _cffi_errors.h
+¦   ¦       ¦   ¦   _cffi_include.h
+¦   ¦       ¦   ¦   _embedding.h
+¦   ¦       ¦   ¦   _imp_emulation.py
+¦   ¦       ¦   ¦   _shimmed_dist_utils.py
+¦   ¦       ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   
+¦   ¦       ¦   +---__pycache__
+¦   ¦       ¦           api.cpython-313.pyc
+¦   ¦       ¦           backend_ctypes.cpython-313.pyc
+¦   ¦       ¦           cffi_opcode.cpython-313.pyc
+¦   ¦       ¦           commontypes.cpython-313.pyc
+¦   ¦       ¦           cparser.cpython-313.pyc
+¦   ¦       ¦           error.cpython-313.pyc
+¦   ¦       ¦           ffiplatform.cpython-313.pyc
+¦   ¦       ¦           lock.cpython-313.pyc
+¦   ¦       ¦           model.cpython-313.pyc
+¦   ¦       ¦           pkgconfig.cpython-313.pyc
+¦   ¦       ¦           recompiler.cpython-313.pyc
+¦   ¦       ¦           setuptools_ext.cpython-313.pyc
+¦   ¦       ¦           vengine_cpy.cpython-313.pyc
+¦   ¦       ¦           vengine_gen.cpython-313.pyc
+¦   ¦       ¦           verifier.cpython-313.pyc
+¦   ¦       ¦           _imp_emulation.cpython-313.pyc
+¦   ¦       ¦           _shimmed_dist_utils.cpython-313.pyc
+¦   ¦       ¦           __init__.cpython-313.pyc
+¦   ¦       ¦           
+¦   ¦       +---cffi-1.17.1.dist-info
+¦   ¦       ¦       entry_points.txt
+¦   ¦       ¦       INSTALLER
+¦   ¦       ¦       LICENSE
+¦   ¦       ¦       METADATA
+¦   ¦       ¦       RECORD
+¦   ¦       ¦       top_level.txt
+¦   ¦       ¦       WHEEL
+¦   ¦       ¦       
+¦   ¦       +---cryptography
+¦   ¦       ¦   ¦   exceptions.py
+¦   ¦       ¦   ¦   fernet.py
+¦   ¦       ¦   ¦   py.typed
+¦   ¦       ¦   ¦   utils.py
+¦   ¦       ¦   ¦   __about__.py
+¦   ¦       ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   
+¦   ¦       ¦   +---hazmat
+¦   ¦       ¦   ¦   ¦   _oid.py
+¦   ¦       ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   
+¦   ¦       ¦   ¦   +---backends
+¦   ¦       ¦   ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   +---openssl
+¦   ¦       ¦   ¦   ¦   ¦   ¦   backend.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦   ¦   ¦           backend.cpython-313.pyc
+¦   ¦       ¦   ¦   ¦   ¦           __init__.cpython-313.pyc
+¦   ¦       ¦   ¦   ¦   ¦           
+¦   ¦       ¦   ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦   ¦           __init__.cpython-313.pyc
+¦   ¦       ¦   ¦   ¦           
+¦   ¦       ¦   ¦   +---bindings
+¦   ¦       ¦   ¦   ¦   ¦   _rust.pyd
+¦   ¦       ¦   ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   +---openssl
+¦   ¦       ¦   ¦   ¦   ¦   ¦   binding.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   _conditional.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦   ¦   ¦           binding.cpython-313.pyc
+¦   ¦       ¦   ¦   ¦   ¦           _conditional.cpython-313.pyc
+¦   ¦       ¦   ¦   ¦   ¦           __init__.cpython-313.pyc
+¦   ¦       ¦   ¦   ¦   ¦           
+¦   ¦       ¦   ¦   ¦   +---_rust
+¦   ¦       ¦   ¦   ¦   ¦   ¦   asn1.pyi
+¦   ¦       ¦   ¦   ¦   ¦   ¦   exceptions.pyi
+¦   ¦       ¦   ¦   ¦   ¦   ¦   ocsp.pyi
+¦   ¦       ¦   ¦   ¦   ¦   ¦   pkcs12.pyi
+¦   ¦       ¦   ¦   ¦   ¦   ¦   pkcs7.pyi
+¦   ¦       ¦   ¦   ¦   ¦   ¦   test_support.pyi
+¦   ¦       ¦   ¦   ¦   ¦   ¦   x509.pyi
+¦   ¦       ¦   ¦   ¦   ¦   ¦   _openssl.pyi
+¦   ¦       ¦   ¦   ¦   ¦   ¦   __init__.pyi
+¦   ¦       ¦   ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   ¦   +---openssl
+¦   ¦       ¦   ¦   ¦   ¦           aead.pyi
+¦   ¦       ¦   ¦   ¦   ¦           ciphers.pyi
+¦   ¦       ¦   ¦   ¦   ¦           cmac.pyi
+¦   ¦       ¦   ¦   ¦   ¦           dh.pyi
+¦   ¦       ¦   ¦   ¦   ¦           dsa.pyi
+¦   ¦       ¦   ¦   ¦   ¦           ec.pyi
+¦   ¦       ¦   ¦   ¦   ¦           ed25519.pyi
+¦   ¦       ¦   ¦   ¦   ¦           ed448.pyi
+¦   ¦       ¦   ¦   ¦   ¦           hashes.pyi
+¦   ¦       ¦   ¦   ¦   ¦           hmac.pyi
+¦   ¦       ¦   ¦   ¦   ¦           kdf.pyi
+¦   ¦       ¦   ¦   ¦   ¦           keys.pyi
+¦   ¦       ¦   ¦   ¦   ¦           poly1305.pyi
+¦   ¦       ¦   ¦   ¦   ¦           rsa.pyi
+¦   ¦       ¦   ¦   ¦   ¦           x25519.pyi
+¦   ¦       ¦   ¦   ¦   ¦           x448.pyi
+¦   ¦       ¦   ¦   ¦   ¦           __init__.pyi
+¦   ¦       ¦   ¦   ¦   ¦           
+¦   ¦       ¦   ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦   ¦           __init__.cpython-313.pyc
+¦   ¦       ¦   ¦   ¦           
+¦   ¦       ¦   ¦   +---decrepit
+¦   ¦       ¦   ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   +---ciphers
+¦   ¦       ¦   ¦   ¦   ¦   ¦   algorithms.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦   ¦   ¦           algorithms.cpython-313.pyc
+¦   ¦       ¦   ¦   ¦   ¦           __init__.cpython-313.pyc
+¦   ¦       ¦   ¦   ¦   ¦           
+¦   ¦       ¦   ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦   ¦           __init__.cpython-313.pyc
+¦   ¦       ¦   ¦   ¦           
+¦   ¦       ¦   ¦   +---primitives
+¦   ¦       ¦   ¦   ¦   ¦   cmac.py
+¦   ¦       ¦   ¦   ¦   ¦   constant_time.py
+¦   ¦       ¦   ¦   ¦   ¦   hashes.py
+¦   ¦       ¦   ¦   ¦   ¦   hmac.py
+¦   ¦       ¦   ¦   ¦   ¦   keywrap.py
+¦   ¦       ¦   ¦   ¦   ¦   padding.py
+¦   ¦       ¦   ¦   ¦   ¦   poly1305.py
+¦   ¦       ¦   ¦   ¦   ¦   _asymmetric.py
+¦   ¦       ¦   ¦   ¦   ¦   _cipheralgorithm.py
+¦   ¦       ¦   ¦   ¦   ¦   _serialization.py
+¦   ¦       ¦   ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   +---asymmetric
+¦   ¦       ¦   ¦   ¦   ¦   ¦   dh.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   dsa.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   ec.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   ed25519.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   ed448.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   padding.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   rsa.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   types.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   utils.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   x25519.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   x448.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦   ¦   ¦           dh.cpython-313.pyc
+¦   ¦       ¦   ¦   ¦   ¦           dsa.cpython-313.pyc
+¦   ¦       ¦   ¦   ¦   ¦           ec.cpython-313.pyc
+¦   ¦       ¦   ¦   ¦   ¦           ed25519.cpython-313.pyc
+¦   ¦       ¦   ¦   ¦   ¦           ed448.cpython-313.pyc
+¦   ¦       ¦   ¦   ¦   ¦           padding.cpython-313.pyc
+¦   ¦       ¦   ¦   ¦   ¦           rsa.cpython-313.pyc
+¦   ¦       ¦   ¦   ¦   ¦           types.cpython-313.pyc
+¦   ¦       ¦   ¦   ¦   ¦           utils.cpython-313.pyc
+¦   ¦       ¦   ¦   ¦   ¦           x25519.cpython-313.pyc
+¦   ¦       ¦   ¦   ¦   ¦           x448.cpython-313.pyc
+¦   ¦       ¦   ¦   ¦   ¦           __init__.cpython-313.pyc
+¦   ¦       ¦   ¦   ¦   ¦           
+¦   ¦       ¦   ¦   ¦   +---ciphers
+¦   ¦       ¦   ¦   ¦   ¦   ¦   aead.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   algorithms.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   base.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   modes.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦   ¦   ¦           aead.cpython-313.pyc
+¦   ¦       ¦   ¦   ¦   ¦           algorithms.cpython-313.pyc
+¦   ¦       ¦   ¦   ¦   ¦           base.cpython-313.pyc
+¦   ¦       ¦   ¦   ¦   ¦           modes.cpython-313.pyc
+¦   ¦       ¦   ¦   ¦   ¦           __init__.cpython-313.pyc
+¦   ¦       ¦   ¦   ¦   ¦           
+¦   ¦       ¦   ¦   ¦   +---kdf
+¦   ¦       ¦   ¦   ¦   ¦   ¦   argon2.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   concatkdf.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   hkdf.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   kbkdf.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   pbkdf2.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   scrypt.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   x963kdf.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦   ¦   ¦           argon2.cpython-313.pyc
+¦   ¦       ¦   ¦   ¦   ¦           concatkdf.cpython-313.pyc
+¦   ¦       ¦   ¦   ¦   ¦           hkdf.cpython-313.pyc
+¦   ¦       ¦   ¦   ¦   ¦           kbkdf.cpython-313.pyc
+¦   ¦       ¦   ¦   ¦   ¦           pbkdf2.cpython-313.pyc
+¦   ¦       ¦   ¦   ¦   ¦           scrypt.cpython-313.pyc
+¦   ¦       ¦   ¦   ¦   ¦           x963kdf.cpython-313.pyc
+¦   ¦       ¦   ¦   ¦   ¦           __init__.cpython-313.pyc
+¦   ¦       ¦   ¦   ¦   ¦           
+¦   ¦       ¦   ¦   ¦   +---serialization
+¦   ¦       ¦   ¦   ¦   ¦   ¦   base.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   pkcs12.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   pkcs7.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   ssh.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦   ¦   ¦           base.cpython-313.pyc
+¦   ¦       ¦   ¦   ¦   ¦           pkcs12.cpython-313.pyc
+¦   ¦       ¦   ¦   ¦   ¦           pkcs7.cpython-313.pyc
+¦   ¦       ¦   ¦   ¦   ¦           ssh.cpython-313.pyc
+¦   ¦       ¦   ¦   ¦   ¦           __init__.cpython-313.pyc
+¦   ¦       ¦   ¦   ¦   ¦           
+¦   ¦       ¦   ¦   ¦   +---twofactor
+¦   ¦       ¦   ¦   ¦   ¦   ¦   hotp.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   totp.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   ¦   ¦   
+¦   ¦       ¦   ¦   ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦   ¦   ¦           hotp.cpython-313.pyc
+¦   ¦       ¦   ¦   ¦   ¦           totp.cpython-313.pyc
+¦   ¦       ¦   ¦   ¦   ¦           __init__.cpython-313.pyc
+¦   ¦       ¦   ¦   ¦   ¦           
+¦   ¦       ¦   ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦   ¦           cmac.cpython-313.pyc
+¦   ¦       ¦   ¦   ¦           constant_time.cpython-313.pyc
+¦   ¦       ¦   ¦   ¦           hashes.cpython-313.pyc
+¦   ¦       ¦   ¦   ¦           hmac.cpython-313.pyc
+¦   ¦       ¦   ¦   ¦           keywrap.cpython-313.pyc
+¦   ¦       ¦   ¦   ¦           padding.cpython-313.pyc
+¦   ¦       ¦   ¦   ¦           poly1305.cpython-313.pyc
+¦   ¦       ¦   ¦   ¦           _asymmetric.cpython-313.pyc
+¦   ¦       ¦   ¦   ¦           _cipheralgorithm.cpython-313.pyc
+¦   ¦       ¦   ¦   ¦           _serialization.cpython-313.pyc
+¦   ¦       ¦   ¦   ¦           __init__.cpython-313.pyc
+¦   ¦       ¦   ¦   ¦           
+¦   ¦       ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦           _oid.cpython-313.pyc
+¦   ¦       ¦   ¦           __init__.cpython-313.pyc
+¦   ¦       ¦   ¦           
+¦   ¦       ¦   +---x509
+¦   ¦       ¦   ¦   ¦   base.py
+¦   ¦       ¦   ¦   ¦   certificate_transparency.py
+¦   ¦       ¦   ¦   ¦   extensions.py
+¦   ¦       ¦   ¦   ¦   general_name.py
+¦   ¦       ¦   ¦   ¦   name.py
+¦   ¦       ¦   ¦   ¦   ocsp.py
+¦   ¦       ¦   ¦   ¦   oid.py
+¦   ¦       ¦   ¦   ¦   verification.py
+¦   ¦       ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   
+¦   ¦       ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦           base.cpython-313.pyc
+¦   ¦       ¦   ¦           certificate_transparency.cpython-313.pyc
+¦   ¦       ¦   ¦           extensions.cpython-313.pyc
+¦   ¦       ¦   ¦           general_name.cpython-313.pyc
+¦   ¦       ¦   ¦           name.cpython-313.pyc
+¦   ¦       ¦   ¦           ocsp.cpython-313.pyc
+¦   ¦       ¦   ¦           oid.cpython-313.pyc
+¦   ¦       ¦   ¦           verification.cpython-313.pyc
+¦   ¦       ¦   ¦           __init__.cpython-313.pyc
+¦   ¦       ¦   ¦           
+¦   ¦       ¦   +---__pycache__
+¦   ¦       ¦           exceptions.cpython-313.pyc
+¦   ¦       ¦           fernet.cpython-313.pyc
+¦   ¦       ¦           utils.cpython-313.pyc
+¦   ¦       ¦           __about__.cpython-313.pyc
+¦   ¦       ¦           __init__.cpython-313.pyc
+¦   ¦       ¦           
+¦   ¦       +---cryptography-45.0.6.dist-info
+¦   ¦       ¦   ¦   INSTALLER
+¦   ¦       ¦   ¦   METADATA
+¦   ¦       ¦   ¦   RECORD
+¦   ¦       ¦   ¦   REQUESTED
+¦   ¦       ¦   ¦   WHEEL
+¦   ¦       ¦   ¦   
+¦   ¦       ¦   +---licenses
+¦   ¦       ¦           LICENSE
+¦   ¦       ¦           LICENSE.APACHE
+¦   ¦       ¦           LICENSE.BSD
 ¦   ¦       ¦           
 ¦   ¦       +---django
 ¦   ¦       ¦   ¦   shortcuts.py
@@ -8801,7 +9103,7 @@ C:.
 ¦   ¦       ¦           __init__.cpython-313.pyc
 ¦   ¦       ¦           __main__.cpython-313.pyc
 ¦   ¦       ¦           
-¦   ¦       +---django-5.2.4.dist-info
+¦   ¦       +---django-5.2.5.dist-info
 ¦   ¦       ¦   ¦   entry_points.txt
 ¦   ¦       ¦   ¦   INSTALLER
 ¦   ¦       ¦   ¦   METADATA
@@ -9198,7 +9500,6 @@ C:.
 ¦   ¦       ¦   ¦           __init__.cpython-313.pyc
 ¦   ¦       ¦   ¦           
 ¦   ¦       ¦   +---_vendor
-¦   ¦       ¦   ¦   ¦   typing_extensions.py
 ¦   ¦       ¦   ¦   ¦   vendor.txt
 ¦   ¦       ¦   ¦   ¦   __init__.py
 ¦   ¦       ¦   ¦   ¦   
@@ -9266,38 +9567,22 @@ C:.
 ¦   ¦       ¦   ¦   ¦           
 ¦   ¦       ¦   ¦   +---distlib
 ¦   ¦       ¦   ¦   ¦   ¦   compat.py
-¦   ¦       ¦   ¦   ¦   ¦   database.py
-¦   ¦       ¦   ¦   ¦   ¦   index.py
-¦   ¦       ¦   ¦   ¦   ¦   locators.py
-¦   ¦       ¦   ¦   ¦   ¦   manifest.py
-¦   ¦       ¦   ¦   ¦   ¦   markers.py
-¦   ¦       ¦   ¦   ¦   ¦   metadata.py
 ¦   ¦       ¦   ¦   ¦   ¦   resources.py
 ¦   ¦       ¦   ¦   ¦   ¦   scripts.py
 ¦   ¦       ¦   ¦   ¦   ¦   t32.exe
 ¦   ¦       ¦   ¦   ¦   ¦   t64-arm.exe
 ¦   ¦       ¦   ¦   ¦   ¦   t64.exe
 ¦   ¦       ¦   ¦   ¦   ¦   util.py
-¦   ¦       ¦   ¦   ¦   ¦   version.py
 ¦   ¦       ¦   ¦   ¦   ¦   w32.exe
 ¦   ¦       ¦   ¦   ¦   ¦   w64-arm.exe
 ¦   ¦       ¦   ¦   ¦   ¦   w64.exe
-¦   ¦       ¦   ¦   ¦   ¦   wheel.py
 ¦   ¦       ¦   ¦   ¦   ¦   __init__.py
 ¦   ¦       ¦   ¦   ¦   ¦   
 ¦   ¦       ¦   ¦   ¦   +---__pycache__
 ¦   ¦       ¦   ¦   ¦           compat.cpython-313.pyc
-¦   ¦       ¦   ¦   ¦           database.cpython-313.pyc
-¦   ¦       ¦   ¦   ¦           index.cpython-313.pyc
-¦   ¦       ¦   ¦   ¦           locators.cpython-313.pyc
-¦   ¦       ¦   ¦   ¦           manifest.cpython-313.pyc
-¦   ¦       ¦   ¦   ¦           markers.cpython-313.pyc
-¦   ¦       ¦   ¦   ¦           metadata.cpython-313.pyc
 ¦   ¦       ¦   ¦   ¦           resources.cpython-313.pyc
 ¦   ¦       ¦   ¦   ¦           scripts.cpython-313.pyc
 ¦   ¦       ¦   ¦   ¦           util.cpython-313.pyc
-¦   ¦       ¦   ¦   ¦           version.cpython-313.pyc
-¦   ¦       ¦   ¦   ¦           wheel.cpython-313.pyc
 ¦   ¦       ¦   ¦   ¦           __init__.cpython-313.pyc
 ¦   ¦       ¦   ¦   ¦           
 ¦   ¦       ¦   ¦   +---distro
@@ -9863,7 +10148,6 @@ C:.
 ¦   ¦       ¦   ¦   ¦           __init__.cpython-313.pyc
 ¦   ¦       ¦   ¦   ¦           
 ¦   ¦       ¦   ¦   +---__pycache__
-¦   ¦       ¦   ¦           typing_extensions.cpython-313.pyc
 ¦   ¦       ¦   ¦           __init__.cpython-313.pyc
 ¦   ¦       ¦   ¦           
 ¦   ¦       ¦   +---__pycache__
@@ -9871,7 +10155,7 @@ C:.
 ¦   ¦       ¦           __main__.cpython-313.pyc
 ¦   ¦       ¦           __pip-runner__.cpython-313.pyc
 ¦   ¦       ¦           
-¦   ¦       +---pip-25.1.1.dist-info
+¦   ¦       +---pip-25.2.dist-info
 ¦   ¦       ¦   ¦   entry_points.txt
 ¦   ¦       ¦   ¦   INSTALLER
 ¦   ¦       ¦   ¦   METADATA
@@ -9881,8 +10165,177 @@ C:.
 ¦   ¦       ¦   ¦   WHEEL
 ¦   ¦       ¦   ¦   
 ¦   ¦       ¦   +---licenses
-¦   ¦       ¦           AUTHORS.txt
-¦   ¦       ¦           LICENSE.txt
+¦   ¦       ¦       ¦   AUTHORS.txt
+¦   ¦       ¦       ¦   LICENSE.txt
+¦   ¦       ¦       ¦   
+¦   ¦       ¦       +---src
+¦   ¦       ¦           +---pip
+¦   ¦       ¦               +---_vendor
+¦   ¦       ¦                   +---cachecontrol
+¦   ¦       ¦                   ¦       LICENSE.txt
+¦   ¦       ¦                   ¦       
+¦   ¦       ¦                   +---certifi
+¦   ¦       ¦                   ¦       LICENSE
+¦   ¦       ¦                   ¦       
+¦   ¦       ¦                   +---dependency_groups
+¦   ¦       ¦                   ¦       LICENSE.txt
+¦   ¦       ¦                   ¦       
+¦   ¦       ¦                   +---distlib
+¦   ¦       ¦                   ¦       LICENSE.txt
+¦   ¦       ¦                   ¦       
+¦   ¦       ¦                   +---distro
+¦   ¦       ¦                   ¦       LICENSE
+¦   ¦       ¦                   ¦       
+¦   ¦       ¦                   +---idna
+¦   ¦       ¦                   ¦       LICENSE.md
+¦   ¦       ¦                   ¦       
+¦   ¦       ¦                   +---msgpack
+¦   ¦       ¦                   ¦       COPYING
+¦   ¦       ¦                   ¦       
+¦   ¦       ¦                   +---packaging
+¦   ¦       ¦                   ¦       LICENSE
+¦   ¦       ¦                   ¦       LICENSE.APACHE
+¦   ¦       ¦                   ¦       LICENSE.BSD
+¦   ¦       ¦                   ¦       
+¦   ¦       ¦                   +---pkg_resources
+¦   ¦       ¦                   ¦       LICENSE
+¦   ¦       ¦                   ¦       
+¦   ¦       ¦                   +---platformdirs
+¦   ¦       ¦                   ¦       LICENSE
+¦   ¦       ¦                   ¦       
+¦   ¦       ¦                   +---pygments
+¦   ¦       ¦                   ¦       LICENSE
+¦   ¦       ¦                   ¦       
+¦   ¦       ¦                   +---pyproject_hooks
+¦   ¦       ¦                   ¦       LICENSE
+¦   ¦       ¦                   ¦       
+¦   ¦       ¦                   +---requests
+¦   ¦       ¦                   ¦       LICENSE
+¦   ¦       ¦                   ¦       
+¦   ¦       ¦                   +---resolvelib
+¦   ¦       ¦                   ¦       LICENSE
+¦   ¦       ¦                   ¦       
+¦   ¦       ¦                   +---rich
+¦   ¦       ¦                   ¦       LICENSE
+¦   ¦       ¦                   ¦       
+¦   ¦       ¦                   +---tomli
+¦   ¦       ¦                   ¦       LICENSE
+¦   ¦       ¦                   ¦       LICENSE-HEADER
+¦   ¦       ¦                   ¦       
+¦   ¦       ¦                   +---tomli_w
+¦   ¦       ¦                   ¦       LICENSE
+¦   ¦       ¦                   ¦       
+¦   ¦       ¦                   +---truststore
+¦   ¦       ¦                   ¦       LICENSE
+¦   ¦       ¦                   ¦       
+¦   ¦       ¦                   +---urllib3
+¦   ¦       ¦                           LICENSE.txt
+¦   ¦       ¦                           
+¦   ¦       +---pycparser
+¦   ¦       ¦   ¦   ast_transforms.py
+¦   ¦       ¦   ¦   c_ast.py
+¦   ¦       ¦   ¦   c_generator.py
+¦   ¦       ¦   ¦   c_lexer.py
+¦   ¦       ¦   ¦   c_parser.py
+¦   ¦       ¦   ¦   lextab.py
+¦   ¦       ¦   ¦   plyparser.py
+¦   ¦       ¦   ¦   yacctab.py
+¦   ¦       ¦   ¦   _ast_gen.py
+¦   ¦       ¦   ¦   _build_tables.py
+¦   ¦       ¦   ¦   _c_ast.cfg
+¦   ¦       ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   
+¦   ¦       ¦   +---ply
+¦   ¦       ¦   ¦   ¦   cpp.py
+¦   ¦       ¦   ¦   ¦   ctokens.py
+¦   ¦       ¦   ¦   ¦   lex.py
+¦   ¦       ¦   ¦   ¦   yacc.py
+¦   ¦       ¦   ¦   ¦   ygen.py
+¦   ¦       ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   
+¦   ¦       ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦           cpp.cpython-313.pyc
+¦   ¦       ¦   ¦           ctokens.cpython-313.pyc
+¦   ¦       ¦   ¦           lex.cpython-313.pyc
+¦   ¦       ¦   ¦           yacc.cpython-313.pyc
+¦   ¦       ¦   ¦           ygen.cpython-313.pyc
+¦   ¦       ¦   ¦           __init__.cpython-313.pyc
+¦   ¦       ¦   ¦           
+¦   ¦       ¦   +---__pycache__
+¦   ¦       ¦           ast_transforms.cpython-313.pyc
+¦   ¦       ¦           c_ast.cpython-313.pyc
+¦   ¦       ¦           c_generator.cpython-313.pyc
+¦   ¦       ¦           c_lexer.cpython-313.pyc
+¦   ¦       ¦           c_parser.cpython-313.pyc
+¦   ¦       ¦           lextab.cpython-313.pyc
+¦   ¦       ¦           plyparser.cpython-313.pyc
+¦   ¦       ¦           yacctab.cpython-313.pyc
+¦   ¦       ¦           _ast_gen.cpython-313.pyc
+¦   ¦       ¦           _build_tables.cpython-313.pyc
+¦   ¦       ¦           __init__.cpython-313.pyc
+¦   ¦       ¦           
+¦   ¦       +---pycparser-2.22.dist-info
+¦   ¦       ¦       INSTALLER
+¦   ¦       ¦       LICENSE
+¦   ¦       ¦       METADATA
+¦   ¦       ¦       RECORD
+¦   ¦       ¦       top_level.txt
+¦   ¦       ¦       WHEEL
+¦   ¦       ¦       
+¦   ¦       +---pymysql
+¦   ¦       ¦   ¦   charset.py
+¦   ¦       ¦   ¦   connections.py
+¦   ¦       ¦   ¦   converters.py
+¦   ¦       ¦   ¦   cursors.py
+¦   ¦       ¦   ¦   err.py
+¦   ¦       ¦   ¦   optionfile.py
+¦   ¦       ¦   ¦   protocol.py
+¦   ¦       ¦   ¦   times.py
+¦   ¦       ¦   ¦   _auth.py
+¦   ¦       ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   
+¦   ¦       ¦   +---constants
+¦   ¦       ¦   ¦   ¦   CLIENT.py
+¦   ¦       ¦   ¦   ¦   COMMAND.py
+¦   ¦       ¦   ¦   ¦   CR.py
+¦   ¦       ¦   ¦   ¦   ER.py
+¦   ¦       ¦   ¦   ¦   FIELD_TYPE.py
+¦   ¦       ¦   ¦   ¦   FLAG.py
+¦   ¦       ¦   ¦   ¦   SERVER_STATUS.py
+¦   ¦       ¦   ¦   ¦   __init__.py
+¦   ¦       ¦   ¦   ¦   
+¦   ¦       ¦   ¦   +---__pycache__
+¦   ¦       ¦   ¦           CLIENT.cpython-313.pyc
+¦   ¦       ¦   ¦           COMMAND.cpython-313.pyc
+¦   ¦       ¦   ¦           CR.cpython-313.pyc
+¦   ¦       ¦   ¦           ER.cpython-313.pyc
+¦   ¦       ¦   ¦           FIELD_TYPE.cpython-313.pyc
+¦   ¦       ¦   ¦           FLAG.cpython-313.pyc
+¦   ¦       ¦   ¦           SERVER_STATUS.cpython-313.pyc
+¦   ¦       ¦   ¦           __init__.cpython-313.pyc
+¦   ¦       ¦   ¦           
+¦   ¦       ¦   +---__pycache__
+¦   ¦       ¦           charset.cpython-313.pyc
+¦   ¦       ¦           connections.cpython-313.pyc
+¦   ¦       ¦           converters.cpython-313.pyc
+¦   ¦       ¦           cursors.cpython-313.pyc
+¦   ¦       ¦           err.cpython-313.pyc
+¦   ¦       ¦           optionfile.cpython-313.pyc
+¦   ¦       ¦           protocol.cpython-313.pyc
+¦   ¦       ¦           times.cpython-313.pyc
+¦   ¦       ¦           _auth.cpython-313.pyc
+¦   ¦       ¦           __init__.cpython-313.pyc
+¦   ¦       ¦           
+¦   ¦       +---pymysql-1.1.2.dist-info
+¦   ¦       ¦   ¦   INSTALLER
+¦   ¦       ¦   ¦   METADATA
+¦   ¦       ¦   ¦   RECORD
+¦   ¦       ¦   ¦   REQUESTED
+¦   ¦       ¦   ¦   top_level.txt
+¦   ¦       ¦   ¦   WHEEL
+¦   ¦       ¦   ¦   
+¦   ¦       ¦   +---licenses
+¦   ¦       ¦           LICENSE
 ¦   ¦       ¦           
 ¦   ¦       +---sqlparse
 ¦   ¦       ¦   ¦   cli.py
@@ -10736,18 +11189,24 @@ C:.
 ¦   ¦   views.py
 ¦   ¦   __init__.py
 ¦   ¦   
+¦   +---fixtures
+¦   ¦       devdata.json
+¦   ¦       
 ¦   +---migrations
 ¦   ¦   ¦   0001_initial.py
+¦   ¦   ¦   0002_cartitem_alter_product_options.py
+¦   ¦   ¦   0003_alter_product_table.py
 ¦   ¦   ¦   __init__.py
 ¦   ¦   ¦   
 ¦   ¦   +---__pycache__
 ¦   ¦           0001_initial.cpython-313.pyc
+¦   ¦           0002_cartitem_alter_product_options.cpython-313.pyc
+¦   ¦           0003_alter_product_table.cpython-313.pyc
 ¦   ¦           __init__.cpython-313.pyc
 ¦   ¦           
 ¦   +---__pycache__
 ¦           admin.cpython-313.pyc
 ¦           apps.cpython-313.pyc
-¦           forms.cpython-313.pyc
 ¦           models.cpython-313.pyc
 ¦           urls.cpython-313.pyc
 ¦           views.cpython-313.pyc
