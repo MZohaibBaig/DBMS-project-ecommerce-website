@@ -1,0 +1,21 @@
+[
+  {
+    "model": "shop2.product",
+    "pk": 1,
+    "fields": {
+      "name": "Demo Sunglasses",
+      "description": "Starter item for dev UI",
+      "price": "99.99",
+      "stock_quantity": 10,
+      "image_url": "https://via.placeholder.com/400x300",
+      "style": "Wayfarer",
+      "material": "Acetate",
+      "ar_model_url": "",
+      "emb1": null,
+      "emb2": null,
+      "emb3": null,
+      "emb4": null,
+      "emb5": null
+    }
+  }
+]
